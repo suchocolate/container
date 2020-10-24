@@ -1,1 +1,1 @@
-# docker
+# Dockerfile collection. 
