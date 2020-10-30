@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <script>
+    var i = 60
+    function tm() {
+      document.getElementById("demo").innerHTML = "iPerf count down: " + i + "s";
+      i = i-1;
+      if (i == 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Test complete";
+        }
+    }
+    x = setInterval(tm,1000);
+  </script>
+</head>
+<body>
+  <p id="demo"></p>
+</body>
+</html>
