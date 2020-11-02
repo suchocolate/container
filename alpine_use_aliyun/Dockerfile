@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER univi@vip.qq.com
+LABEL maintainer=univi@vip.qq.com
 
 # Change repo to aliyun
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
